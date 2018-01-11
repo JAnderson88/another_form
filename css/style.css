@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header {
+  border-bottom: 1px solid black;
+  min-width: 96vw;
+  min-height: 10vh;
+  padding: 2% 0% 0% 2%;
+}
+
+header .title{
+  font-size: 34px;
+}
+
+header .links{
+  position: absolute;
+  top: 6vh;
+  left: 80vw;
+}
+div{
+  display: inline-block;
+}
+.sidebar{
+  position: absolute;
+  border-right: 1px solid black;
+  min-width: 30vw;
+  min-height: 90vh;
+}
+.main{
+  position: absolute;
+  max-width: 70vw;
+  left: 30vw;
+  padding: 4vh 0vw 0vh 20vw;
+}
+input{
+  display: block;
+  margin-bottom: 2vh;
+}
+textarea{
+  resize: none;
+}
+footer{
+  position: absolute;
+  border-top: 1px solid black;
+  min-width: 98.7vw;
+  bottom: -6.5vh;
+}
